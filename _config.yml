@@ -23,7 +23,7 @@ baseurl: "/musings"
 # baseurl: ""
 
 # google_analytics: UA-52446115-1
-repo: http://github.com/sandhepg/musings
+repo: http://github.com/sandheepg/musings
 disqus_shortname: "sandeepg"
 disqus_site_shortname: "sandeepg"
 
