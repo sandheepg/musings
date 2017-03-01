@@ -12,14 +12,14 @@ tags:
 
 ---
 
-Elixir is a dynamic, functional, concurrent programming language that is built on top of Earlang and runs on its VM. You can get more details about Elixir [here](https://en.wikipedia.org/wiki/Elixir_(programming_language) "Wikipedia") and [here](http://elixir-lang.org "Official site")
+Elixir is a dynamic, functional, concurrent programming language that is built on top of Erlang and runs on its VM. You can get more details about Elixir [here](https://en.wikipedia.org/wiki/Elixir_(programming_language) "Wikipedia") and [here](http://elixir-lang.org "Official site")
 
 The only pre-requisite for installing Elixir, is Erlang. The following instructions will guide you on how to install Elixir on different 
 
 {% highlight bash %}
 # update brew packages before installing Erlang.
 brew update
-# OSX 10.7 and later might need [autoconf](https://www.gnu.org/software/autoconf/ "autoconf")
+# OSX 10.7 and later might need autoconf
 # check for presence by running
 which autoconf 
 # if not installed, run
