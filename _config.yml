@@ -1,0 +1,54 @@
+# Build settings
+permalink   : /blog/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+gems: [jekyll-paginate]
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: My Musings
+description: "My rant on anything and everything"
+keywords: "sandheep, guduru, sandeep, musings, tutorials, blog, web, mobile"
+url: http://sandheepg.github.io
+baseurl: "/musings"
+# baseurl: ""
+
+# google_analytics: UA-52446115-1
+repo: http://github.com/sandhepg/musings
+disqus_shortname: "sandeepg"
+disqus_site_shortname: "sandeepg"
+
+# Author settings
+author:
+  name      : Sandeep Guduru
+  job       : Web and Mobile App Developer
+  bio       : "Aredent traveller, Passionate movie buff, always looking for the best project and good coffee."
+  thumb     : /images/author.png
+  email     : sandheep.g@gmail.com
+  url       : http://sandheepg.github.io
+  github    : http://github.com/sandheepg
+  twitter   : http://twitter.com/sandheepg
+  facebook  : http://facebook.com/sandheep.dev
+  linkedin  : http://linkedin.com/in/sandheepg
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  # - slug: resume
+  #   title: Resume
+  # - slug: skills
+  #   title: Skills
+  - slug: blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
