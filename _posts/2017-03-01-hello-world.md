@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "hello world"
+title: "Hello World"
 permalink: hello-world
 date: 2017-03-01 12:36:45
 comments: true
