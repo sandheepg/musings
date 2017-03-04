@@ -11,9 +11,10 @@
     <nav class="navbar sliding-panel-content">
       <ul>
         {% for item in site.navbar %}
-          <li><a href="{{ '/' | prepend: site.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
 		  {% if item.title == "Blog" %} 
 		  <li><a href="{{ '/blog' | prepend: site.baseurl }}" title="{{item.title}}">blog</a></li>
+		  {% else %}
+		  <li><a href="{{ '/' | prepend: site.url }}" title="{{ item.title }}">{{ item.title }}</a></li>
 		  {% endif %}
         {% endfor %}
         <li><a href="{{ site.repo }}/archive/master.zip" title="Download">Download</a></li>
