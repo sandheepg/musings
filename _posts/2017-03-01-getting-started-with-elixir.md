@@ -14,13 +14,14 @@ tags:
 
 Elixir is a dynamic, functional, concurrent programming language that is built on top of Erlang and runs on its VM. You can get more details about Elixir [here](https://en.wikipedia.org/wiki/Elixir_(programming_language) "Wikipedia") and [here](http://elixir-lang.org "Official site")
 
-The only pre-requisite for installing Elixir, is Erlang. The following instructions will guide you on how to install Elixir on different 
+In order to install Elixir, you must have Erlang installed. The following instructions will guide you on how to install Elixir on different OS.
+
+For Mac OSX users
 
 {% highlight bash %}
 # update brew packages before installing Erlang.
 brew update
-# OSX 10.7 and later might need autoconf
-# check for presence by running
+# OSX 10.7 and later might need autoconf. Check for its presence by running
 which autoconf 
 # if not installed, run
 brew install autoconf
@@ -37,7 +38,7 @@ brew install elixir
 
 {% endhighlight %} 
 
-For Linux users,
+For Linux users
 
 {% highlight bash %}
 # update packages and install required dependencies.
