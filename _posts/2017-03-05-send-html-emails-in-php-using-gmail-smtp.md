@@ -19,13 +19,10 @@ Here is a simple one page Contact form example written in PHP
 
 require_once('class.phpmailer.php');
 
-// Functions to filter user inputs
+#  Functions to filter user inputs
 function filterName($field){
-    // Sanitize user name
     $field = filter_var(trim($field), FILTER_SANITIZE_STRING);
-    
-    // Validate user name
-    if(filter_var($field, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-zA-Z\s]+/")))){
+        if(filter_var($field, FILTER_VALIDATE_REGEXP, array("options"=>array("regexp"=>"/^[a-zA-Z\s]+/")))){
         return $field;
     }else{
         return FALSE;

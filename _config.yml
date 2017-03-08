@@ -20,7 +20,7 @@ description: "My rant on anything and everything"
 keywords: "sandheep, guduru, sandeep, musings, tutorials, blog, web, mobile"
 url: http://sandheepg.github.io
 baseurl: "/musings"
-# baseurl: ""
+gisturl: "sandheepg.roughdraft.io"
 
 # google_analytics: UA-52446115-1
 repo: http://github.com/sandheepg/musings

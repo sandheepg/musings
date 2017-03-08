@@ -33,7 +33,7 @@ which erl
 # start Erlang from your terminal with
 erl
 
-#install Elixir
+# install Elixir
 brew install elixir
 
 {% endhighlight %} 
