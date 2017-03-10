@@ -32,7 +32,7 @@ sudo apt-get install libmysqlclient-dev
 sudo apt-get install g++
 {% endhighlight %} 
 
-Ruby, Ruby gems or any Ruby related packages must not be installed using apt-get as it leads to unwanted headaches. The best way to install Ruby is installing from source. Alternatively you can use RVM and install Ruby as explained [here](). Find stable version of Ruby [here](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ "Ruby")  and download it to setup-installers directory.
+Ruby, Ruby gems or any Ruby related packages must not be installed using apt-get as it leads to unwanted headaches. The best way to install Ruby is installing from source. Alternatively you can use RVM and install Ruby as explained [here](https://sandheepg.github.io/musings/setup-rails-on-ubuntu-using-rvm "use rvm to set up rails on ubuntu"). Find stable version of Ruby [here](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ "Ruby")  and download it to setup-installers directory.
 
 Extract the tar.gz file using the command
 
