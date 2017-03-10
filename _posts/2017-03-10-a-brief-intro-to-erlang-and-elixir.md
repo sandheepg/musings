@@ -20,16 +20,16 @@ In spite of being matured and successful over the years, Erlang has always been 
 
 If you are interested by now, there are enough resources available online to help you get started. My personal choice is [this](https://elixirschool.com/ "Elixir School"). The official documentation is also excellent. Elixir has a community that is wonderful and friendly. Here are few other resources that might help in your learning.
 
-[Official site](http://elixir-lang.org/ "Elixir")
-[Official guides](https://elixir-slackin.herokuapp.com/ "Elixir Guides")
-[Elixir Slack](https://elixir-slackin.herokuapp.com/ "Elixir slack")
-[Awesome Elixir](https://github.com/h4cc/awesome-elixir "Awesome Elixir")
-[Elixir Fountain](http://elixirfountain.com/ "Elixir Fountain")
-[Elixir casts](https://elixircasts.io/ "Elixir casts")
-[Elixir Reddit](https://www.reddit.com/r/elixir/ "Elixir Reddit")
-[Elixir status](https://elixirstatus.com/ "Elixir status")
-[Elixir weekly](https://elixirweekly.net/ "Elixir weekly")
-[Erlang](http://learnyousomeerlang.com/content "Learn you some Erlang")
+- [Official site](http://elixir-lang.org/ "Elixir")
+- [Official guides](https://elixir-slackin.herokuapp.com/ "Elixir Guides")
+- [Elixir Slack](https://elixir-slackin.herokuapp.com/ "Elixir slack")
+- [Awesome Elixir](https://github.com/h4cc/awesome-elixir "Awesome Elixir")
+- [Elixir Fountain](http://elixirfountain.com/ "Elixir Fountain")
+- [Elixir casts](https://elixircasts.io/ "Elixir casts")
+- [Elixir Reddit](https://www.reddit.com/r/elixir/ "Elixir Reddit")
+- [Elixir status](https://elixirstatus.com/ "Elixir status")
+- [Elixir weekly](https://elixirweekly.net/ "Elixir weekly")
+- [Erlang](http://learnyousomeerlang.com/content "Learn you some Erlang")
 
 Find my post on how to install Elixir [here](https://sandheepg.github.io/musings/getting-started-with-elixir "Get started with Elixir")
 

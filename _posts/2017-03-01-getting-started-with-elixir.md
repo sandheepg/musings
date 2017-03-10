@@ -12,7 +12,7 @@ tags:
 
 ---
 
-Elixir is a dynamic, functional, concurrent programming language that is built on top of Erlang and runs on its VM. You can get more details about Elixir [here](https://en.wikipedia.org/wiki/Elixir_(programming_language) "Wikipedia") and [here](http://elixir-lang.org "Official site")
+Elixir is a dynamic, functional, concurrent programming language that is built on top of Erlang and runs on its VM. You can get more details about Elixir [here](https://sandheepg.github.io/musings/a-brief-intro-to-erlang-and-elixir "Brief intro to Elixir"), [here](https://en.wikipedia.org/wiki/Elixir_(programming_language) "Wikipedia") and [here](http://elixir-lang.org "Official site")
 
 In order to install Elixir, you must have Erlang installed. The following instructions will guide you on how to install Elixir on different OS.
 
