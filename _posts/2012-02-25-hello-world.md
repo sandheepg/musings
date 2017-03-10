@@ -2,11 +2,11 @@
 layout: post
 title: "Hello World"
 permalink: hello-world
-date: 2017-03-01 12:36:45
+date: 2012-02-25 12:36:45
 comments: true
 description: "hello world"
-keywords: ""
-categories:
+keywords: "hello, world"
+categories: "misc"
 
 tags:
 
@@ -15,6 +15,16 @@ tags:
 Today is the day. This blog celebrates its first post and am going to keep it live unlike my previous stints. This is my fourth stint at blogging after trying my luck on various platforms.
 
 Nothing new .. just a note to self about how easy this is.
+
+Hello World  !!
+
+Am ready with my first blog post.
+
+Thanks to WordPress for making this so effortless.
+
+Looking forward for an enjoyable blogging journey!
+
+Sandheep.
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
