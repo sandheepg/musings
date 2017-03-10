@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "setting up rails in ubuntu 12.04"
+title: "Setting up rails in ubuntu 12.04"
 permalink: setting-up-rails-in-ubuntu-1204
 date: 2012-05-12 10:05:19
 comments: true
@@ -16,7 +16,9 @@ Ubuntu 12.04 LTS, code named as Precise Pangolin is the latest release from Ubun
 
 Once ubuntu is installed on your machine, you can go ahead and update your software using the Update manager tool. After this run the following commands to make sure everything is updated.
 
-> sudo apt-get update && sudo apt-get upgrade
+{% highlight bash %}
+sudo apt-get update && sudo apt-get upgrade
+{% endhighlight %} 
 
 Once the software is updated, browse through lot of free apps using Ubuntu Software Centre and install apps of your choice. You might as well want to start with Restricted Extras which installs dvd-codecs, flash, MS core fonts etc. which are licensed by third parties and can’t be shipped with ubuntu. Create a directory setup-installers in your home to save any installers downloaded from internet. Follow the instructions given below to get start with programming in Rails on Ubuntu.
 
@@ -30,11 +32,14 @@ sudo apt-get install libmysqlclient-dev
 sudo apt-get install g++
 {% endhighlight %} 
 
-Ruby, Ruby gems or any Ruby related packages must not be installed using apt-get as it leads to unwanted headaches. The best way to install Ruby is installing from source. Alternatively you can use RVM and install Ruby as explained [here]. Find stable version of Ruby [here](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ "Ruby")  and download it to setup-installers directory.
+Ruby, Ruby gems or any Ruby related packages must not be installed using apt-get as it leads to unwanted headaches. The best way to install Ruby is installing from source. Alternatively you can use RVM and install Ruby as explained [here](). Find stable version of Ruby [here](ftp://ftp.ruby-lang.org/pub/ruby/1.9/ "Ruby")  and download it to setup-installers directory.
 
 Extract the tar.gz file using the command
 
-> tar zxpvf file_name
+{% highlight bash %}
+tar zxpvf file_name
+{% endhighlight %} 
+
 
 This extracts contents from the archive into a directory.
 
@@ -52,7 +57,9 @@ Gems are Ruby Package managers. You can download them [here](http://rubygems.org
 
 Extract the files using *tar zxpvf file_name* and run setup.rb file using the following command.
 
-> sudo ruby setup.rb
+{% highlight bash %}
+sudo ruby setup.rb
+{% endhighlight %} 
 
 Run *gem -v*  to know the version of Ruby gems installed. Run gem list to list all the gems installed locally.
 
@@ -79,11 +86,15 @@ sudo make install
 
 To install npm, a package manager for node run the following command in the terminal.
 
-> curl http://npmjs.org/install.sh | sudo sh
+{% highlight bash %}
+curl http://npmjs.org/install.sh | sudo sh
+{% endhighlight %} 
 
 To install Coffescript, run    
 
-> sudo npm install -g coffee-script
+{% highlight bash %}
+sudo npm install -g coffee-script
+{% endhighlight %} 
 
 This marks the end of this post. Hope this is helpful. Love to hear more from you in the comments section.
 
